@@ -1,4 +1,4 @@
-# fastmodel-eslint-config
+# eslint-config-fastmodel
 
 > Shareable ESLint configuration used at FastModel.
 
