@@ -9,9 +9,6 @@
   "devDependencies": {
     "eslint": "^3.8.1"
   },
-  "scripts": {
-    "test": "eslint ."
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FastModelSports/eslint-config.git"
