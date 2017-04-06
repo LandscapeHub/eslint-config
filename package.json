@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config-fastmodel",
+  "version": "0.0.1",
+  "description": "Shareable ESLint configuration used at FastModel Sports.",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": "^3.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.8.1"
+  },
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FastModelSports/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Zach Pflederer <zach@fastmodeltechnologies.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FastModelSports/eslint-config/issues"
+  },
+  "dependencies": {
+    "underscore": "^1.8.3"
+  },
+  "homepage": "https://github.com/FastModelSports/eslint-config#readme"
+}
