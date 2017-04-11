@@ -33,7 +33,6 @@ var rules = {
     "newline-per-chained-call": ["error", { "ignoreChainWithDepth": 6 }],
     "no-unused-vars": 0,
     "no-unused-expressions": ["error", { "allowShortCircuit": true, "allowTernary": true }],
-    "no-nested-ternary": "off",
     "no-mixed-operators": "off",
     "no-console": ["error", { allow: ["info", "error"] }],
     "no-alert": "off",
