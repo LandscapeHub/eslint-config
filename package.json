@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-fastmodel",
+  "name": "eslint-config-landscapehub",
   "version": "0.1.2",
-  "description": "Shareable ESLint configuration used at FastModel Sports.",
+  "description": "Shareable ESLint configuration used at LandscapeHub.",
   "main": "index.js",
   "peerDependencies": {
     "eslint": "^3.8.1"
@@ -11,19 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FastModelSports/eslint-config.git"
+    "url": "git+https://github.com/LandscapeHub/eslint-config.git"
   },
   "keywords": [
     "eslint",
     "eslintconfig"
   ],
-  "author": "Zach Pflederer <zach@fastmodeltechnologies.com>",
+  "author": "Zach Pflederer <zach@landscapehub.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/FastModelSports/eslint-config/issues"
+    "url": "https://github.com/LandscapeHub/eslint-config/issues"
   },
   "dependencies": {
     "underscore": "^1.8.3"
   },
-  "homepage": "https://github.com/FastModelSports/eslint-config#readme"
+  "homepage": "https://github.com/LandscapeHub/eslint-config#readme"
 }
