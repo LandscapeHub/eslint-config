@@ -1,12 +1,12 @@
-# eslint-config-fastmodel
+# eslint-config
 
-> Shareable ESLint configuration used at FastModel.
+> Shareable ESLint configuration used at LandscapeHub.
 
 
 ## Installation
 
 ```
-yarn add eslint babel-eslint eslint-config-fastmodel eslint-config-airbnb eslint-loader eslint-plugin-import eslint-plugin-jsx-a11y
+yarn add eslint babel-eslint eslint-config-landscapehub eslint-config-airbnb eslint-loader eslint-plugin-import eslint-plugin-jsx-a11y
 ```
 
 
@@ -17,7 +17,7 @@ To use this preset, simply extend it in the project `.eslintrc` file. See [Confi
 
 ```json
 {
-  "extends": "fastmodel"
+  "extends": "landscapehub"
 }
 ```
 
@@ -34,6 +34,6 @@ To use this preset with React, extend it like so.
 
 ```json
 {
-  "extends": "fastmodel/react"
+  "extends": "landscapehub/react"
 }
 ```
