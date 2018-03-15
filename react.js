@@ -10,6 +10,7 @@ var parserOptions = _.extend({}, base.parserOptions, {
 });
 
 var rules = _.extend({}, base.rules, {
+    "react/button-has-type": ["error"],
     "react/jsx-filename-extension": "off",
     "react/no-did-mount-set-state": "off",
     "react/no-unescaped-entities": "off",
