@@ -1,7 +1,7 @@
 var env = {
   es6: true,
   node: true,
-  jest: true
+  jest: true,
 }
 
 var parserOptions = {
@@ -19,10 +19,12 @@ var rules = {
   'jsx-a11y/href-no-hash': 'off', // allow hash on href
   'jsx-a11y/heading-has-content': 'off', //allow JSX heading shortcut
   'prettier/prettier': 'warn',
-  "no-undef": "warn",
-  "no-unused-vars": ["warn", { "args": "none", "ignoreRestSiblings": true }],
-  "react/jsx-uses-vars": "warn",
-  "react/jsx-uses-react": 1
+  'no-undef': 'warn',
+  'no-unused-vars': ['warn', { args: 'none', ignoreRestSiblings: true }],
+  'react/jsx-uses-vars': 'warn',
+  'react/jsx-uses-react': 1,
+  'react/jsx-no-undef': ['warn'],
+  'react/button-has-type': ['error'],
 }
 
 module.exports = {

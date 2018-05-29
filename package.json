@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-lh",
-  "version": "0.4.0",
+  "version": "0.5.3",
   "description": "Shareable ESLint configuration used at LandscapeHub.",
   "main": "index.js",
   "peerDependencies": {
@@ -29,9 +29,6 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/LandscapeHub/eslint-config/issues"
-  },
-  "dependencies": {
-    "underscore": "^1.8.3"
   },
   "homepage": "https://github.com/LandscapeHub/eslint-config#readme"
 }
