@@ -24,6 +24,7 @@ var rules = {
   'react/jsx-uses-vars': 'warn',
   'react/jsx-uses-react': 1,
   'react/jsx-no-undef': ['warn'],
+  'react/jsx-no-duplicate-props': ['warn'],
   'react/button-has-type': ['error'],
 }
 
