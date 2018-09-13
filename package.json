@@ -25,10 +25,16 @@
     "eslint",
     "eslintconfig"
   ],
-  "author": "Zach Pflederer <zach@landscapehub.com>",
+  "author": "lhtech <lhtech@landscapehub.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/LandscapeHub/eslint-config/issues"
   },
-  "homepage": "https://github.com/LandscapeHub/eslint-config#readme"
+  "dependencies": {
+    "underscore": "^1.8.3"
+  },
+  "homepage": "https://github.com/LandscapeHub/eslint-config#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }

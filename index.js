@@ -18,7 +18,7 @@ var rules = {
   'jsx-a11y/no-static-element-interactions': 'off',
   'jsx-a11y/href-no-hash': 'off', // allow hash on href
   'jsx-a11y/heading-has-content': 'off', //allow JSX heading shortcut
-  'prettier/prettier': 'warn',
+  'prettier/prettier': 'error',
   'no-undef': 'warn',
   'no-unused-vars': ['warn', { args: 'none', ignoreRestSiblings: true }],
   'react/jsx-uses-vars': 'warn',
