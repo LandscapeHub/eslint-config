@@ -26,6 +26,7 @@ var rules = {
   'react/jsx-no-undef': ['warn'],
   'react/jsx-no-duplicate-props': ['warn'],
   'react/button-has-type': ['error'],
+  'react/no-access-state-in-setstate': ['error'],
 }
 
 module.exports = {
