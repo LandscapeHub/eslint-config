@@ -26,11 +26,12 @@ var rules = {
   'react/jsx-no-undef': ['warn'],
   'react/jsx-no-duplicate-props': ['warn'],
   'react/button-has-type': ['error'],
+  'react-hooks/rules-of-hooks': 'error',
 }
 
 module.exports = {
   env: env,
-  plugins: ['prettier', 'react'],
+  plugins: ['prettier', 'react', 'react-hooks'],
   parserOptions: parserOptions,
   rules: rules,
 }
