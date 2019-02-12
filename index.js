@@ -27,11 +27,12 @@ var rules = {
   'react/jsx-no-duplicate-props': ['warn'],
   'react/button-has-type': ['error'],
   'react/no-access-state-in-setstate': ['error'],
+  'react-hooks/rules-of-hooks': 'error',
 }
 
 module.exports = {
   env: env,
-  plugins: ['prettier', 'react'],
+  plugins: ['prettier', 'react', 'react-hooks'],
   parserOptions: parserOptions,
   rules: rules,
 }
