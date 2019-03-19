@@ -30,6 +30,7 @@ var rules = {
   'import/no-useless-path-segments': ['error'],
   'react/no-access-state-in-setstate': ['error'],
   'react-hooks/rules-of-hooks': 'error',
+  'react-hooks/exhaustive-deps': 'error',
 }
 
 module.exports = {
