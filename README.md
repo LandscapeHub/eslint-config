@@ -12,7 +12,7 @@ yarn add eslint babel-eslint eslint-config-landscapehub eslint-config-airbnb esl
 
 ## Usage
 
-To use this preset, simply extend it in the project `.eslintrc` file. See [Configuring ESLint][Configuring ESLint] for details. Any rules can still be overridden.
+To use this preset, simply extend it in the project `.eslintrc` file. See [Configuring ESLint](https://eslint.org/docs/user-guide/configuring/) for details. Any rules can still be overridden.
 
 
 ```json
